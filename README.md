@@ -2,7 +2,7 @@
 
 **Autor:** Bobby Delhi El Boudali Majidi 
 **Contacto / Redes sociales:**  
-- [Instagram](@buuudeelii._)  
+- [Instagram](https://www.instagram.com/buuudeelii._/)  
 
 ## Contexto del proyecto
 **SafeReplay Hub** es una plataforma web + IoT diseñada para **controlar y promover el juego responsable** en casinos físicos y en línea.  
@@ -26,15 +26,15 @@ La idea principal es combinar **wearables inteligentes** (pulseras, cadenas, ani
 ### Paleta de colores
 | Nombre       | Código HEX  | Ejemplo |
 |-------------|------------|---------|
-| Primary (Negro mate) | `#1e1e1e` | ![#1e1e1e](https://via.placeholder.com/50/1e1e1e/ffffff?text=+) |
-| Secondary (Verde ruleta pastel) | `#3cb371` | ![#3cb371](https://via.placeholder.com/50/3cb371/ffffff?text=+) |
-| ALERT (Rojo pastel fuerte) | `#e74c3c` | ![#e74c3c](https://via.placeholder.com/50/e74c3c/ffffff?text=+) |
+| Primary (Negro mate) | `#1e1e1e` | ![#1e1e1e](https://preview.colorkit.co/color/1e1e1e.png?size=social&type=opengraph) |
+| Secondary (Verde ruleta pastel) | `#3cb371` | ![#3cb371](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1oxHts1m1b_oAFsrVM2Dny6y4Aegxi5I8KA&s) |
+| ALERT (Rojo pastel fuerte) | `#e74c3c` | ![#e74c3c](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrWzvjR9mM2K84J2wLxt9K1xjF2XEWIfeUsA&s) |
 
 ### Fuentes
 - **Heading:** Verdana  
-  ![Verdana](https://via.placeholder.com/200x50?text=Verdana)  
+  ![Verdana](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwovMQd0kQRVp2eXtiuVY4TOPeTzW9qZIkyQ&s)  
 - **Body:** Courier New  
-  ![Courier New](https://via.placeholder.com/200x50?text=Courier+New)  
+  ![Courier New](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGO85OC1rYG99bdZZPuGj0EyiDEkhGVbdeSA&s)  
 
 ---
 
