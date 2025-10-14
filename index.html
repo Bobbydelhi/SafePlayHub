@@ -43,103 +43,172 @@
   </section>
 
   <section id="eventos" class="spa-section" style="display:none;">
-    <div class="text-center bg-dark text-light p-5 mb-5 rounded shadow">
-      <h2 class="display-5 fw-bold">Próximos Eventos</h2>
-      <p class="lead">Explora talleres, conferencias y encuentros sobre juego responsable e innovación IoT.</p>
-    </div>
+  <div class="text-center bg-dark text-light p-5 mb-5 rounded shadow">
+    <h2 class="display-5 fw-bold">Próximos Eventos</h2>
+    <p class="lead">Explora talleres, conferencias y encuentros sobre juego responsable e innovación IoT.</p>
+  </div>
 
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      
-      <div class="col">
-        <div class="card h-100 shadow card-expand">
-          <img src="./assets/img/IoT_World_Congress_suma_foro_sobre_inteligencia_artificial.jpg" class="card-img-top" alt="Foro IoT">
-          <div class="card-body">
-            <h5 class="card-title">Foro Internacional IoT</h5>
-            <p class="card-text">Expertos debaten cómo los dispositivos inteligentes pueden hacer del juego una experiencia más segura.</p>
-            <div class="descripcion" style="display:none;">
-              <p>El Foro Internacional IoT reúne a líderes del sector tecnológico y de la salud mental para explorar cómo los sensores y dispositivos inteligentes pueden prevenir la ludopatía mediante análisis en tiempo real.</p>
-            </div>
-          </div>
-          <div class="card-footer"><small class="text-muted">15 Nov 2025</small></div>
+  <!-- Carrusel de eventos -->
+  <div id="eventosCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+    <div class="carousel-inner rounded shadow">
+      <div class="carousel-item active">
+        <img src="./assets/img/IoT_World_Congress_suma_foro_sobre_inteligencia_artificial.jpg" class="d-block w-100" width="750" height="350" alt="Foro IoT">
+        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+          <h5>Foro Internacional IoT</h5>
+          <p>Expertos debaten cómo los dispositivos inteligentes pueden hacer del juego una experiencia más segura.</p>
+          <small>📅 15 Nov 2025</small>
         </div>
       </div>
-
-     
-      <div class="col">
-        <div class="card h-100 shadow card-expand">
-          <img src="./assets/img/Bienestar2.jpg" class="card-img-top" alt="Taller Bienestar Digital">
-          <div class="card-body">
-            <h5 class="card-title">Taller de Bienestar Digital</h5>
-            <p class="card-text">Estrategias prácticas y tecnología IoT para controlar los hábitos de juego y mejorar tu bienestar.</p>
-            <div class="descripcion" style="display:none;">
-              <p>Este taller ofrece ejercicios guiados, técnicas de desconexión y un módulo sobre el uso de wearables para medir el bienestar digital de los jugadores.</p>
-            </div>
-          </div>
-          <div class="card-footer"><small class="text-muted">30 Nov 2025</small></div>
+      <div class="carousel-item">
+        <img src="./assets/img/Bienestar2.jpg" class="d-block w-100" width="750" height="350" alt="Taller Bienestar Digital">
+        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+          <h5>Taller de Bienestar Digital</h5>
+          <p>Estrategias prácticas y tecnología IoT para controlar los hábitos de juego y mejorar tu bienestar.</p>
+          <small>📅 30 Nov 2025</small>
         </div>
       </div>
-
-      
-      <div class="col">
-        <div class="card h-100 shadow card-expand">
-          <img src="./assets/img/Bootcamp.png" class="card-img-top" alt="Bootcamp SafePlay">
-          <div class="card-body">
-            <h5 class="card-title">BootCamp SafePlay</h5>
-            <p class="card-text">Encuentro colaborativo entre desarrolladores, diseñadores y psicólogos para crear soluciones innovadoras.</p>
-            <div class="descripcion" style="display:none;">
-              <p>Durante este bootcamp se desarrollarán prototipos de software y hardware centrados en la detección temprana del juego compulsivo.</p>
-            </div>
-          </div>
-          <div class="card-footer"><small class="text-muted">10 Dic 2025</small></div>
+      <div class="carousel-item">
+        <img src="./assets/img/Bootcamp.png" class="d-block w-100" width="750" height="350" alt="Bootcamp SafePlay">
+        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+          <h5>BootCamp SafePlay</h5>
+          <p>Encuentro colaborativo entre desarrolladores, diseñadores y psicólogos para crear soluciones innovadoras.</p>
+          <small>📅 10 Dic 2025</small>
         </div>
       </div>
-
-      
-      <div class="col">
-        <div class="card h-100 shadow card-expand">
-          <img src="./assets/img/conferencia.jpeg" class="card-img-top" alt="Conferencia Psicología y Juego Responsable">
-          <div class="card-body">
-            <h5 class="card-title">Conferencia Psicología y Juego Responsable</h5>
-            <p class="card-text">Psicólogos y expertos enseñan técnicas de autocontrol y prevención de adicciones en el juego.</p>
-            <div class="descripcion" style="display:none;">
-              <p>Sesión dirigida por profesionales de la salud mental que abordan la relación entre dopamina, hábitos digitales y comportamiento en juegos de azar.</p>
-            </div>
-          </div>
-          <div class="card-footer"><small class="text-muted">12 Dic 2025</small></div>
+      <div class="carousel-item">
+        <img src="./assets/img/conferencia.jpeg" class="d-block w-100" width="750" height="350" alt="Conferencia Psicología y Juego Responsable">
+        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+          <h5>Conferencia Psicología y Juego Responsable</h5>
+          <p>Psicólogos y expertos enseñan técnicas de autocontrol y prevención de adicciones en el juego.</p>
+          <small>📅 12 Dic 2025</small>
         </div>
       </div>
-
-      
-      <div class="col">
-        <div class="card h-100 shadow card-expand">
-          <img src="./assets/img/IA.jpeg" class="card-img-top" alt="Seminario Online - IA en Casinos Seguros">
-          <div class="card-body">
-            <h5 class="card-title">Seminario Online - IA en Casinos Seguros</h5>
-            <p class="card-text">Taller digital sobre cómo la inteligencia artificial puede detectar patrones de riesgo en jugadores.</p>
-            <div class="descripcion" style="display:none;">
-              <p>Explora algoritmos de machine learning aplicados a sistemas de juego para detectar comportamientos compulsivos en tiempo real.</p>
-            </div>
-          </div>
-          <div class="card-footer"><small class="text-muted">14 Dic 2025</small></div>
+      <div class="carousel-item">
+        <img src="./assets/img/IA.jpeg" class="d-block w-100" width="750" height="350" alt="Seminario Online - IA en Casinos Seguros">
+        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+          <h5>Seminario Online - IA en Casinos Seguros</h5>
+          <p>Taller digital sobre cómo la inteligencia artificial puede detectar patrones de riesgo en jugadores.</p>
+          <small>📅 14 Dic 2025</small>
         </div>
       </div>
-
-      
-      <div class="col">
-        <div class="card h-100 shadow card-expand">
-          <img src="./assets/img/Familia.jpeg" class="card-img-top" alt="Jornada Colaborativa Familia y Juego Saludable">
-          <div class="card-body">
-            <h5 class="card-title">Jornada Colaborativa Familia y Juego Saludable</h5>
-            <p class="card-text">Dinámicas para familias y jugadores con herramientas de autocuidado y acompañamiento responsable.</p>
-            <div class="descripcion" style="display:none;">
-              <p>Actividades para mejorar la comunicación familiar y aprender a detectar señales de alerta en jugadores en entornos sociales.</p>
-            </div>
-          </div>
-          <div class="card-footer"><small class="text-muted">20 Dic 2025</small></div>
+      <div class="carousel-item">
+        <img src="./assets/img/Familia.jpeg" class="d-block w-100" width="750" height="350" alt="Jornada Colaborativa Familia y Juego Saludable">
+        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+          <h5>Jornada Colaborativa Familia y Juego Saludable</h5>
+          <p>Dinámicas para familias y jugadores con herramientas de autocuidado y acompañamiento responsable.</p>
+          <small>📅 20 Dic 2025</small>
         </div>
       </div>
     </div>
-  </section>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#eventosCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#eventosCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#eventosCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#eventosCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#eventosCarousel" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#eventosCarousel" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#eventosCarousel" data-bs-slide-to="4"></button>
+      <button type="button" data-bs-target="#eventosCarousel" data-bs-slide-to="5"></button>
+    </div>
+  </div>
+
+  <!-- Tus 6 cards originales intactas debajo del carrusel -->
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100 shadow card-expand">
+        <img src="./assets/img/IoT_World_Congress_suma_foro_sobre_inteligencia_artificial.jpg" class="card-img-top" alt="Foro IoT">
+        <div class="card-body">
+          <h5 class="card-title">Foro Internacional IoT</h5>
+          <p class="card-text">Expertos debaten cómo los dispositivos inteligentes pueden hacer del juego una experiencia más segura.</p>
+          <div class="descripcion" style="display:none;">
+            <p>El Foro Internacional IoT reúne a líderes del sector tecnológico y de la salud mental para explorar cómo los sensores y dispositivos inteligentes pueden prevenir la ludopatía mediante análisis en tiempo real.</p>
+          </div>
+        </div>
+        <div class="card-footer"><small class="text-muted">15 Nov 2025</small></div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 shadow card-expand">
+        <img src="./assets/img/Bienestar2.jpg" class="card-img-top" alt="Taller Bienestar Digital">
+        <div class="card-body">
+          <h5 class="card-title">Taller de Bienestar Digital</h5>
+          <p class="card-text">Estrategias prácticas y tecnología IoT para controlar los hábitos de juego y mejorar tu bienestar.</p>
+          <div class="descripcion" style="display:none;">
+            <p>Este taller ofrece ejercicios guiados, técnicas de desconexión y un módulo sobre el uso de wearables para medir el bienestar digital de los jugadores.</p>
+          </div>
+        </div>
+        <div class="card-footer"><small class="text-muted">30 Nov 2025</small></div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 shadow card-expand">
+        <img src="./assets/img/Bootcamp.png" class="card-img-top" alt="Bootcamp SafePlay">
+        <div class="card-body">
+          <h5 class="card-title">BootCamp SafePlay</h5>
+          <p class="card-text">Encuentro colaborativo entre desarrolladores, diseñadores y psicólogos para crear soluciones innovadoras.</p>
+          <div class="descripcion" style="display:none;">
+            <p>Durante este bootcamp se desarrollarán prototipos de software y hardware centrados en la detección temprana del juego compulsivo.</p>
+          </div>
+        </div>
+        <div class="card-footer"><small class="text-muted">10 Dic 2025</small></div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 shadow card-expand">
+        <img src="./assets/img/conferencia.jpeg" class="card-img-top" alt="Conferencia Psicología y Juego Responsable">
+        <div class="card-body">
+          <h5 class="card-title">Conferencia Psicología y Juego Responsable</h5>
+          <p class="card-text">Psicólogos y expertos enseñan técnicas de autocontrol y prevención de adicciones en el juego.</p>
+          <div class="descripcion" style="display:none;">
+            <p>Sesión dirigida por profesionales de la salud mental que abordan la relación entre dopamina, hábitos digitales y comportamiento en juegos de azar.</p>
+          </div>
+        </div>
+        <div class="card-footer"><small class="text-muted">12 Dic 2025</small></div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 shadow card-expand">
+        <img src="./assets/img/IA.jpeg" class="card-img-top" alt="Seminario Online - IA en Casinos Seguros">
+        <div class="card-body">
+          <h5 class="card-title">Seminario Online - IA en Casinos Seguros</h5>
+          <p class="card-text">Taller digital sobre cómo la inteligencia artificial puede detectar patrones de riesgo en jugadores.</p>
+          <div class="descripcion" style="display:none;">
+            <p>Explora algoritmos de machine learning aplicados a sistemas de juego para detectar comportamientos compulsivos en tiempo real.</p>
+          </div>
+        </div>
+        <div class="card-footer"><small class="text-muted">14 Dic 2025</small></div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 shadow card-expand">
+        <img src="./assets/img/Familia.jpeg" class="card-img-top" alt="Jornada Colaborativa Familia y Juego Saludable">
+        <div class="card-body">
+          <h5 class="card-title">Jornada Colaborativa Familia y Juego Saludable</h5>
+          <p class="card-text">Dinámicas para familias y jugadores con herramientas de autocuidado y acompañamiento responsable.</p>
+          <div class="descripcion" style="display:none;">
+            <p>Actividades para mejorar la comunicación familiar y aprender a detectar señales de alerta en jugadores en entornos sociales.</p>
+          </div>
+        </div>
+        <div class="card-footer"><small class="text-muted">20 Dic 2025</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
   <section id="contacto" class="spa-section" style="display:none;">
     <h2 class="mb-4">Contáctame</h2>
