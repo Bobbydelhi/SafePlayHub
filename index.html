@@ -8,13 +8,14 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="icon" type="image/png" href="./assets/img/logo.png">
-
-  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 </head>
 <body>
 
 <header class="mb-4 text-center">
   <h1>SafePlay Hub</h1>
+  <div class="mb-4 text-center">
+    <input type="text" id="buscador" class="form-control w-50 mx-auto" placeholder="Buscador">
+  </div>
   <img src="./assets/img/logo.png" height="200" width="150">
   <nav>
     <div class="mt-4 d-flex justify-content-center flex-wrap gap-2">
@@ -27,10 +28,11 @@
 </header>
 
 <main class="container mb-5">
+
   <section id="principal" class="spa-section">
     <h2 class="mb-3">Bienvenido</h2>
     <p><strong>SafePlay Hub</strong> es una plataforma web + IoT diseñada para <strong>controlar y promover el juego responsable</strong> en el entorno de los casinos físicos y en línea.</p>
-    <p><img src="./assets/img/01.jpg" height="350" width="750"></p>
+    <p><img src="./assets/img/01.jpg" height="350" width="750" alt="SafePlay Hub"></p>
     <p>La idea principal es combinar <strong>wearables inteligentes</strong> con un <strong>panel web accesible</strong> y un <strong>dashboard en tiempo real</strong>.</p>
     <ul>
       <li>Monitorizar en tiempo real su estado físico y emocional.</li>
@@ -45,63 +47,93 @@
       <h2 class="display-5 fw-bold">Próximos Eventos</h2>
       <p class="lead">Explora talleres, conferencias y encuentros sobre juego responsable e innovación IoT.</p>
     </div>
+
     <div class="row row-cols-1 row-cols-md-3 g-4">
+      
       <div class="col">
-        <div class="card h-100 shadow">
+        <div class="card h-100 shadow card-expand">
           <img src="./assets/img/IoT_World_Congress_suma_foro_sobre_inteligencia_artificial.jpg" class="card-img-top" alt="Foro IoT">
           <div class="card-body">
             <h5 class="card-title">Foro Internacional IoT</h5>
             <p class="card-text">Expertos debaten cómo los dispositivos inteligentes pueden hacer del juego una experiencia más segura.</p>
+            <div class="descripcion" style="display:none;">
+              <p>El Foro Internacional IoT reúne a líderes del sector tecnológico y de la salud mental para explorar cómo los sensores y dispositivos inteligentes pueden prevenir la ludopatía mediante análisis en tiempo real.</p>
+            </div>
           </div>
           <div class="card-footer"><small class="text-muted">15 Nov 2025</small></div>
         </div>
       </div>
+
+     
       <div class="col">
-        <div class="card h-100 shadow">
+        <div class="card h-100 shadow card-expand">
           <img src="./assets/img/Bienestar2.jpg" class="card-img-top" alt="Taller Bienestar Digital">
           <div class="card-body">
             <h5 class="card-title">Taller de Bienestar Digital</h5>
             <p class="card-text">Estrategias prácticas y tecnología IoT para controlar los hábitos de juego y mejorar tu bienestar.</p>
+            <div class="descripcion" style="display:none;">
+              <p>Este taller ofrece ejercicios guiados, técnicas de desconexión y un módulo sobre el uso de wearables para medir el bienestar digital de los jugadores.</p>
+            </div>
           </div>
           <div class="card-footer"><small class="text-muted">30 Nov 2025</small></div>
         </div>
       </div>
+
+      
       <div class="col">
-        <div class="card h-100 shadow">
+        <div class="card h-100 shadow card-expand">
           <img src="./assets/img/Bootcamp.png" class="card-img-top" alt="Bootcamp SafePlay">
           <div class="card-body">
             <h5 class="card-title">BootCamp SafePlay</h5>
             <p class="card-text">Encuentro colaborativo entre desarrolladores, diseñadores y psicólogos para crear soluciones innovadoras.</p>
+            <div class="descripcion" style="display:none;">
+              <p>Durante este bootcamp se desarrollarán prototipos de software y hardware centrados en la detección temprana del juego compulsivo.</p>
+            </div>
           </div>
           <div class="card-footer"><small class="text-muted">10 Dic 2025</small></div>
         </div>
       </div>
+
+      
       <div class="col">
-        <div class="card h-100 shadow">
+        <div class="card h-100 shadow card-expand">
           <img src="./assets/img/conferencia.jpeg" class="card-img-top" alt="Conferencia Psicología y Juego Responsable">
           <div class="card-body">
             <h5 class="card-title">Conferencia Psicología y Juego Responsable</h5>
             <p class="card-text">Psicólogos y expertos enseñan técnicas de autocontrol y prevención de adicciones en el juego.</p>
+            <div class="descripcion" style="display:none;">
+              <p>Sesión dirigida por profesionales de la salud mental que abordan la relación entre dopamina, hábitos digitales y comportamiento en juegos de azar.</p>
+            </div>
           </div>
           <div class="card-footer"><small class="text-muted">12 Dic 2025</small></div>
         </div>
       </div>
+
+      
       <div class="col">
-        <div class="card h-100 shadow">
+        <div class="card h-100 shadow card-expand">
           <img src="./assets/img/IA.jpeg" class="card-img-top" alt="Seminario Online - IA en Casinos Seguros">
           <div class="card-body">
             <h5 class="card-title">Seminario Online - IA en Casinos Seguros</h5>
             <p class="card-text">Taller digital sobre cómo la inteligencia artificial puede detectar patrones de riesgo en jugadores.</p>
+            <div class="descripcion" style="display:none;">
+              <p>Explora algoritmos de machine learning aplicados a sistemas de juego para detectar comportamientos compulsivos en tiempo real.</p>
+            </div>
           </div>
           <div class="card-footer"><small class="text-muted">14 Dic 2025</small></div>
         </div>
       </div>
+
+      
       <div class="col">
-        <div class="card h-100 shadow">
+        <div class="card h-100 shadow card-expand">
           <img src="./assets/img/Familia.jpeg" class="card-img-top" alt="Jornada Colaborativa Familia y Juego Saludable">
           <div class="card-body">
             <h5 class="card-title">Jornada Colaborativa Familia y Juego Saludable</h5>
             <p class="card-text">Dinámicas para familias y jugadores con herramientas de autocuidado y acompañamiento responsable.</p>
+            <div class="descripcion" style="display:none;">
+              <p>Actividades para mejorar la comunicación familiar y aprender a detectar señales de alerta en jugadores en entornos sociales.</p>
+            </div>
           </div>
           <div class="card-footer"><small class="text-muted">20 Dic 2025</small></div>
         </div>
@@ -114,7 +146,7 @@
     <p>Si tienes dudas o sugerencias, envíame un mensaje.</p>
     <div class="row justify-content-center">
       <div class="col-md-6">
-        <form>
+        <form id="contacto_form">
           <div class="mb-3 text-start">
             <label for="nombre" class="form-label">Nombre</label>
             <input type="text" class="form-control" id="nombre">
@@ -131,7 +163,7 @@
             <label for="message" class="form-label">Mensaje</label>
             <textarea class="form-control" id="message" rows="5"></textarea>
           </div>
-          <button type="submit" class="btn btn-green w-100"><a href="mailto:SafePlay-hub@outlook.es">Enviar mensaje</a></button>
+          <button type="submit" class="btn btn-green w-100">Enviar mensaje</button>
         </form>
       </div>
     </div>
@@ -184,6 +216,8 @@
   © 2025 SafePlay Hub — BobbyDelhi (El Boudali)
 </footer>
 
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <script src="assets/js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
